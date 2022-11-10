@@ -1,5 +1,5 @@
 # LAB_4_Embedded
-#### By: Ronan Harkins, 
+#### By: Ronan Harkins, Zachary Bravo, 
 ## Introduction
 The goal of lab for was to toggle the on board LED with a 250 ms delay and produce a duty cycle with the timer within the MSP430FR2355. With this the the ouput should be sent to a pin on the board and the values should be able to be seen on the oscilloscope within the lab. 
 
