@@ -13,7 +13,8 @@ For the ten percent duty cycle the values of TB0CCR0 was chnaged to be 500 and t
 
 
 ### 20 Percent Duty Cycle 
-For the 20% duty cycle the same method was applied however instead of using the polling method 
+For the 20% duty cycle the same method was applied however instead of using the polling method the interupt method was used. This does not change how the duty cycle is calculated. The values of TB0CCR0 and TB0CCR1 needed to create a value of 0.2 in order to get the 20% duty cycle. So the value of TB0CCR1 was keep at 50 and the value of TB0CCR0 was chnaged to 250. The reason for this chnage is becasue the value 0.2 is need so 50/250 produces the value of 0.2 needed for the 20% duty cycle. This duty cycle can be seen within the figure below.  
+
 ![scope_13](https://user-images.githubusercontent.com/98828696/201200302-80c244d6-a2ee-4e86-aa75-b55e915f9e8e.png)
 
 
